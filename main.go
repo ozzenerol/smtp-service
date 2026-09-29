@@ -33,6 +33,8 @@ func main() {
 			return
 		}
 
+		log.Printf("Email sent to %v", req.To)
+
 		w.WriteHeader(http.StatusNoContent)
 	})
 
