@@ -1,3 +1,4 @@
+// Package config to manage the config what the fuck do you want me to write you fucking LSP
 package config
 
 import (
@@ -10,6 +11,7 @@ type Config struct {
 	Server struct {
 		Port uint16 `yaml:"port"`
 	} `yaml:"server"`
+
 	SMTP struct {
 		Host     string `yaml:"host"`
 		Port     uint16 `yaml:"port"`
