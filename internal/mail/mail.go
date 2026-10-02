@@ -1,3 +1,4 @@
+// Package mail
 package mail
 
 import (
